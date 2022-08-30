@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --mode development --watch --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "heroku-prebuild": "npm install --dev"
   },
   "keywords": [],
   "author": "",
